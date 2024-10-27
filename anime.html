@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>anime</title>
+        <meta name="viewport" content="width = device-weidth,initial-scale = 1">
+        <link rel="stylesheet" href="anime1.css">
+        <body>    
+            <section id="a">
+                <img class="logo" src="a11-removebg-preview.png" alt="">
+                <div class="b">
+                    <h1>ANIME WORLD</h1>
+                    <p>let join in the world of anime</p>
+                    <div class="ba">
+                        <a href="#"><span></span>about anime</a>
+                        <a href="#"><span></span>anime list</a>
+                    </div>
+                </diV>
+            </section>
+            <div id="c">
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT ANIME</a></li>
+                        <li><a href="#">TOP ANIME</a></li>
+                        <li><a href="#">BEST ANIME</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="ca">
+                <img src="cross-removebg-preview.png" id="menu">
+            </div>
+
+            <!--features-->
+
+            <section id="features">
+                <div class="title-text">
+                    <p>ANIME LIST</p>
+                    <h1>best anime</h1>
+                </div>
+                <div class="features-box">
+                    <div class="features">
+                        <h1>NARUTO</h1>
+                    </div>
+                    <div class="para">
+                        <div class="icon"></div>
+                    <div class="image">
+                        <img src="a2.jpg" alt="">
+                    </div>
+                </div><br>
+                <div class="features-box">
+                    <div class="features">
+                        <h1>NARUTO</h1>
+                    </div>
+                    <div class="para">
+                        <div class="icon"></div>
+                    <div class="image">
+                        <img src="a2.jpg" alt="">
+                    </div>
+                </div><br>
+            </section>
+            <script>
+                var ca = document.getElementById("ca")
+                var c = document.getElementById("c")
+                var menu = document.getElementById("menu")
+                ca.onclick=function(){
+                    if(c.style.right == "0px"){
+                        c.style.right = "-250px";
+                    }
+                    else{
+                        c.style.right = "0px";
+                    }
+                }
+            </script>
+        </body>
+    </head>
+</html>
